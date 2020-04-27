@@ -39,5 +39,7 @@ public class Client {
         service.awaitTermination(10, TimeUnit.SECONDS);
         String numStr = Files.lines(path).findFirst().orElse("0");
         System.out.println("总票数：" + numStr);
+
+        System.out.println("-------------------------");
     }
 }
