@@ -41,5 +41,6 @@ public class Client {
         System.out.println("总票数：" + numStr);
 
         System.out.println("-------------------------");
+        System.out.println("test");
     }
 }
